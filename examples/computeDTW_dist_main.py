@@ -19,7 +19,7 @@ from twoTanks.AfterAnnotation.compute_cost import compute_cost_result as compute
 filename = '../results/summary_results.csv'
 
 total_training_traces = 64
-total_test_traces = 32
+total_test_traces = 2
 try:
     # open the output CSV file and write the results
     with open(filename, 'w', newline='') as csvfile:
